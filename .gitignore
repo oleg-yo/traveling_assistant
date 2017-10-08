@@ -1,0 +1,12 @@
+# Compiled source #
+
+bin/
+obj/
+
+
+# CodeBlocks project files #
+
+*.cbp
+*.layout
+*.depend
+
