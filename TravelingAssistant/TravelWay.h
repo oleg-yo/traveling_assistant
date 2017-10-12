@@ -9,9 +9,9 @@
 class TravelWay {
 public:
     TravelWay();
-    ~TravelWay();
+    ~TravelWay() = default;
 
-    void addPoint(PositionPoint& );
+    void addPoint(const PositionPoint& );
     void removePoint(const PositionPoint& );
 
     const int getDirectDistance();
@@ -26,7 +26,6 @@ private:
     std::vector<PositionPoint> m_points;
     int m_directDistance;
     int m_fullDistance;
-
 };
 
 #endif // TRAVELWAY_H
