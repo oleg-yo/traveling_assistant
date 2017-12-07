@@ -1,11 +1,10 @@
 #include <iostream>
 
 #include "TravelingAssistant.h"
-//#include "test/TravelingAssistantTest.h"
 
 using namespace std;
 
-int main()
+int main(int argc, char *argv[])
 {
     cout << "Hello world!" << endl;
 
