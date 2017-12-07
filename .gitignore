@@ -2,7 +2,7 @@
 
 bin/
 obj/
-
+build/
 
 # CodeBlocks project files #
 
@@ -10,3 +10,7 @@ obj/
 *.layout
 *.depend
 
+# Doxygen documentation #
+
+doc/*
+!doc/doc_config.conf
